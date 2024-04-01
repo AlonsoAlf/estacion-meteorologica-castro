@@ -29,6 +29,9 @@ La meteorología es la ciencia que estudia el estado del tiempo, el clima y las 
 # MATERIALES NECESARIOS
 
 ### SENSOR TRA Y HUMEDAD
+El sensor utilizado fue DS18B20, se trata de un sensor de temperatura en formato capsula, gracias a lo cual nos va a permitir medir la temperatura en ambientes muy húmedos e incluso de líquidos, al tratarse de una estación meteorológica buscamos medir la temperatura ambiente, por lo que gracias a su diseño encapsulado no tendremos que preocuparnos de proteger el sensor de la lluvia.
+En cuanto a sus características técnicas, el DS18B20 cuenta con un rango de medición de entre -55 ºC a 125 ºC, además, proporciona lecturas de la temperatura de entre 9 y 12 bits, que podemos configurar, sobre una interfaz "1-Wire", con sólo un cable de señal (y tierra) estando conectado a un microprocesador central, y podemos utilizarlo con un voltaje de entre 3 y 5.5V.
+A la hora de utilizar el sensor no nos encontramos con grandes problemas mas allá de un pequeño fallo en el código que hacia que el sensor nos diera una lectura errónea.
 ### SENSOR PRESIÓN (BMP280)
 ### SENSOR RADIACIÓN SOLAR
 ### PLUVIÓMETRO
